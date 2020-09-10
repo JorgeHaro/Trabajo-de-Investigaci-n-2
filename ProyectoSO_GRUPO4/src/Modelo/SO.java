@@ -198,8 +198,7 @@ public class SO implements Arrancable{
             if(ct.size()>0 && ct.getProcesosVivos()==0 && duracion<1){
                 duracion = System.currentTimeMillis() - tiempoInicio;
                 String estadist = ct.size()+"\t"+getTiempoEsperaProm()+"\t"+duracion+"\n";
-                Recursos.RecolectorEstadistico.escribirEn(estadist
-                        , politica);
+                //Recursos.RecolectorEstadistico.escribirEn(estadist, politica);
             }
             return duracion;
         }
