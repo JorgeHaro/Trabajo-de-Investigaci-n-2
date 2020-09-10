@@ -1,0 +1,5 @@
+----Datos---
+Nro. Procesos	Tiempo espera prom.	Tiempo de duración
+10	32510.0	32076
+20	55601.0	57145
+20	63978.0	89418
